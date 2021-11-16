@@ -32,20 +32,16 @@ Where U,V and W are the weight matrices to compute conetxt variable $h$ and outp
 
 >`import torch`    
 >`from torch import nn`   
->`rnn = nn.RNN(3,4)` ` # where 3,4 are parameters representing 3 - number of input features , 4 - number of features for hidden size.`       
-> `# so 1 sample point will  have 10 features and have some some sequence lenght lets say, we have seqquence length of 5. so each sample point looks like`    
+>`rnn = nn.RNN(3,4)`        
 > `print(torch.randn(3,5))`   
-> `# we have 10 features each with sequence lenth of 5. but will be the input tensor (L,N,Hin) when batch_first=False default False`   
 > `input=torch.randn(5,2,3)`   
 > `print(input)`   
-> `# we have 2 sample with shape 10 features with sequence length`   
-> `#output would be definitely 2 samples, output with shape of 4(hidden) and sequence length 5. since batch_first = false outpout will be (L,N,Ho) is (5,2,4)`  
-> `# Also outpout of RNN cell would yield outpout and last hidden activation for each feture`   
 > `output,final_hidden=rnn(input)`   
 > `print(output.shape,final_hidden.shape)`   
 > `# input is (5,2,3)`   
 > `# rnn cell is nn.RNN(3,4)`  
 > `# output is (5,2,4) & final hidden activation is (1,2,4)`
+[![RNN_output](Rnn_output.jpg)](https://github.com/ankojubhanuprakash/WorkSpace/blob/main/RNN.ipynb)
  
 ### Back Propogation through time 
 ## LSTM
