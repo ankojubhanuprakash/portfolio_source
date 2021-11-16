@@ -40,9 +40,10 @@ Term Frequency: is a scoring of the frequency of the word in the current documen
 ![image](https://user-images.githubusercontent.com/40142772/140699303-b3169b23-e220-42b3-9124-0ae096dab76f.png)
 where ft,d is the raw count of a term in a document, i.e., the number of times that term t occurs in document d. 
 
-Inverse Document Frequency: is a scoring of how rare the word is across documents.
-![image](https://user-images.githubusercontent.com/40142772/140699413-32896b0a-26b4-41b4-a468-5cc87a84ff90.png)
-N: total number of documents in the corpus $${\displaystyle N={|D|}}N = {|D|}
+Inverse Document Frequency: is a scoring of how rare the word is across documents.   
+![image](https://user-images.githubusercontent.com/40142772/140699413-32896b0a-26b4-41b4-a468-5cc87a84ff90.png)   
+N: total number of documents in the corpus. 
+$${\displaystyle N={|D|}}N = {|D|}
 {\displaystyle |\{d\in D:t\in d\}|} |\{d \in D: t \in d\}| : number of documents where the term {\displaystyle t}t appears
 (i.e., {\displaystyle \mathrm {tf} (t,d)\neq 0} \mathrm{tf}(t,d) \neq 0). If the term is not in the corpus, this will lead to a division-by-zero.
 It is therefore common to adjust the denominator to {\displaystyle 1+|\{d\in D:t\in d\}|}1 + |\{d \in D: t \in d\}|.$$
