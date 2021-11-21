@@ -41,7 +41,7 @@ Where U,V and W are the weight matrices to compute conetxt variable $h$ and outp
 > `# input is (5,2,3)`   
 > `# rnn cell is nn.RNN(3,4)`  
 > `# output is (5,2,4) & final hidden activation is (1,2,4)`
-[![RNN_output](Rnn_output.jpg)](https://github.com/ankojubhanuprakash/WorkSpace/blob/main/RNN.ipynb)
+[![RNN_output](Rnn_output.JPG)](https://github.com/ankojubhanuprakash/WorkSpace/blob/main/RNN.ipynb)
  
 ### Back Propogation through time 
 ## LSTM
