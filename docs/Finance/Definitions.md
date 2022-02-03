@@ -28,3 +28,6 @@ Terminology
     Share Split - Issues additional shares to existing customers, in order to increase number of shares in the market. Is done to make share more affordable.
      Share Consolidaion - opposite to Share split
      Buy Back - Company purchass shares from existing share holders via the stock market. Gaining back control.
+     
+VAlua     
+     
