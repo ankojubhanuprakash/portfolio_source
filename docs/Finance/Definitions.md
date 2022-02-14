@@ -52,6 +52,7 @@ VAluation
    Liquidity Tatio 
     current ratio >1 beneficial
     quick ratio >1 beneficial
-    
-   
+   Turnover Ration
+    debtors turnover ration , ability to conver sales to cash 
+    creditor turnover ratio, ability to pay back to suppliers
      
