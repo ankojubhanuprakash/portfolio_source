@@ -45,13 +45,13 @@ VAluation
        used to copare company withits competitors.
     DPS - div
     Price to sales = MArket captilisation/ Tota revenue.   lower is benefit
-    price to book value    
+    price to book value  = MArkey price per share / book value. ( lesser than 1 )  
    Leverage Rations
-    Debt Equity ratio
-    debt ratio
+    Debt Equity ratio = debt/shareholder quity lower is helathy
+    debt ratio = total debt/total assets . debt <1 is healthy
    Liquidity Tatio 
-    current ratio
-    quick ratio
+    current ratio >1 beneficial
+    quick ratio >1 beneficial
     
    
      
