@@ -29,5 +29,12 @@ Terminology
      Share Consolidaion - opposite to Share split
      Buy Back - Company purchass shares from existing share holders via the stock market. Gaining back control.
      
-VAlua     
+VAluation
+  INterpretation 
+   EBITDA
+   EBIT
+   PBT
+   PAT
+  Fundamental Ratios
+   
      
