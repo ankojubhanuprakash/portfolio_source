@@ -37,10 +37,14 @@ VAluation
    PAT
   Fundamental Ratios
    Direct VAuation 
-    EPS (Earning per share)
-    P/E (Proce to eearning)
+    EPS (Earning per share) = 
+      Pat / number of outstanding shares. High EPS prefered.
+      growing EPS is desirable.
+    P/E (Proce to eearning) = Market price per share / EPS.
+       market willing to pay per rupee eatning  of the compay. 
+       used to copare company withits competitors.
     DPS - div
-    Price to sales
+    Price to sales = MArket captilisation/ Tota revenue.   lower is benefit
     price to book value    
    Leverage Rations
     Debt Equity ratio
