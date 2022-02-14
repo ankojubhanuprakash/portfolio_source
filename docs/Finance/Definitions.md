@@ -31,10 +31,23 @@ Terminology
      
 VAluation
   INterpretation 
-   EBITDA
+   EBITDA - 
    EBIT
    PBT
    PAT
   Fundamental Ratios
+   Direct VAuation 
+    EPS (Earning per share)
+    P/E (Proce to eearning)
+    DPS - div
+    Price to sales
+    price to book value    
+   Leverage Rations
+    Debt Equity ratio
+    debt ratio
+   Liquidity Tatio 
+    current ratio
+    quick ratio
+    
    
      
