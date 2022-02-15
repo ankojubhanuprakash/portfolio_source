@@ -1,3 +1,4 @@
+trendlline,
 MArket capt > 500
 OPM > 15% (operating profit margin)
 ROE > 15 
