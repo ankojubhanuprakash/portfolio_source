@@ -97,27 +97,22 @@ class BinarySearchTree():
         ans=ans+self.right.sum()
       return ans       
     def delete(self,val):
-
       if self.data > val :
         if self.left:
-          self.left.delete(val)
+          self.left=self.left.delete(val)
       elif val > self.data :
           if self.right:
-            self.right.delete(val) 
+            self.right=self.right.delete(val) 
       else:
         if self.left == None and self.right==None:
           return None
-        else:
-          if self.right!=None:
-            rmin=self.right.min()
-            self.data=rmin
-            self.right.delete(rmin)
-          elif self.left!=None:
-            lmax = self.left.max()
-            self.data=lmax
-            self.left.delete(lmax)    
-      
-
-
-
+        if self.right==None:
+          return self.left
+        if self.left == None:
+            return self.right
+        rmin=self.right.min()
+        self.data=rmin
+        self.right = self.right.delete(rmin)
+      return self  
 ```
+!(Notebook)[https://github.com/ankojubhanuprakash/DS_Algo_python/blob/main/BinarySearchTree.ipynb]
