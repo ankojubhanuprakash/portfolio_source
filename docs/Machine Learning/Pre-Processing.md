@@ -1,16 +1,33 @@
 # Scaling
 
 ## StandardScaler
+Standardize features by removing the mean and scaling to unit variance.    
+The standard score of a sample x is calculated as: $ z = \frac{(x-u)}{s} $
 
-`import pandas as pd`    
-`from sklearn.preprocessing import StandardScaler`   
-`scaler=StandardScaler()`       
-`data = [i for i in range(1,31)]`          
-`data.reshape(-1,2)`                 
-`x=pd.DataFrame(data)`            
+```python
+import pandas as pd   
+from sklearn.preprocessing import StandardScaler   
+scaler=StandardScaler()       
+data = [i for i in range(1,31)]          
+data.reshape(-1,2)                 
+x=pd.DataFrame(data)     
+```       
 ![Dataframe](image1.JPG)   
-`scaler.fit_transform(data)`    
+```python
+scaler.fit_transform(data)  
+```  
 ![Normalised](Normalised.JPG )
+
+### Attributes
+scaler.mean_ and scaler.var_
+### save and load the scaler 
+```python
+import joblib
+scaler_filename = "scaler.save"
+joblib.dump(scaler, scaler_filename) 
+#Load scaler
+scaler = joblib.load(scaler_filename) 
+```
 
 ## MinMaxScaler
 
