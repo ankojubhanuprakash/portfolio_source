@@ -115,4 +115,4 @@ class BinarySearchTree():
         self.right = self.right.delete(rmin)
       return self  
 ```
-!(Notebook)[https://github.com/ankojubhanuprakash/DS_Algo_python/blob/main/BinarySearchTree.ipynb]
+[Notebook](https://github.com/ankojubhanuprakash/DS_Algo_python/blob/main/BinarySearchTree.ipynb)
